@@ -8,7 +8,7 @@ def write(str):
   for letter in str:
     sys.stdout.write(letter)
     sys.stdout.flush()
-    time.sleep(0.05)
+    time.sleep(0.1)
 
 # A clear function for windows and linux using os
 def clear():
@@ -426,7 +426,7 @@ def fight_syringe():
   ████▒▒▒ ▒▒░░░░░░░░░░░░░░░░░░░░░  ▒▒▒▓ ▓▓██
   ██▒    ▒▒▒▒░    ░░░░░░░░    ░  ░░▒▒▒▒▓▓▓▓██
   ████▒▒▒▒▒▒▒▒░░░░░  ░░░░░░░░░ ░░░░▒▒ ▒▓ ████
-    ██▒▒▒ ▒▒▒▒    ░░░░░░░    ░ ░░▒▒▒▒▒▒▓▓██  
+    ██▒▒▒ ▒▒▒▒    ░          ░ ░░▒▒▒▒▒▒▓▓██  
     ██▒▒░░▒▒▒▒▒▒░░░░░░░░░░░░░░ ░▒▒▒▒▒▒▓▓██  
     ██▒▒▒▒░░░░               ▒ ▒▒▒▒▓▓████  
     ████▒▒▒▒░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▓▓██    
